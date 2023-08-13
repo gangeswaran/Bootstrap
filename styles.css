@@ -1895,8 +1895,9 @@ h5:hover{
     position: relative;
 }
 nav{
-    background-color: rgba(122, 211, 114, 0.63) !important;
+    background-color: rgb(122, 211, 114) !important;
     color: black !important;
+    text-align:center;
 }
 h5{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -1908,13 +1909,26 @@ h5:hover{
     color: blue;
 }
 .bord{
-    top: 120px;
+    top: 10px;
     position: relative;
     border: 2px dashed black;
 }
-
+#points{
+    height: 100%;
+    background-color: rgba(67, 197, 67, 0.589);
+    padding: 60px;
+    font-size: 30px;
+    border: 50px solid white;
+}
 .bord nav{
     top: 10px;
+}
+#grids{
+    height: 100%;
+    background-color: rgba(67, 197, 67, 0.589);
+    padding: 60px;
+    font-size: 30px;
+    border: 50px solid white;
 }
 .html
 {
